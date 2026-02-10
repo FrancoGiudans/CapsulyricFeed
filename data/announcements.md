@@ -18,11 +18,11 @@ We have updated our feedback system to better serve you. Check out the **roadmap
 ---
 
 Meta: date=2026-02-10; type=new; active=true
-Meta: title_en=Alpha Testing Started
-Meta: title_zh=Alpha 测试开始
+Meta: title_en=Version 1.2 is coming soon to the prerelease channel.
+Meta: title_zh=1.2版本即将推送到prerelease频道
 
 [EN]
-Alpha build v2.1 is now available for download.
+Version 1.2 is coming soon to the prerelease channel.
 
 [ZH]
-Alpha 构建 v2.1 现已开放下载。
+1.2版本即将推送到prerelease频道
