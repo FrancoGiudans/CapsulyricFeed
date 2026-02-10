@@ -235,6 +235,21 @@
     z-index: 0;
 }
 
+.roadmap-section-header {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    /* Ensure header sits on top of the line */
+    position: relative;
+    z-index: 2;
+    background-color: var(--surface-container);
+    /* Match container bg to hide line */
+    display: inline-block;
+    /* Only Wrap text */
+    padding: 0 8px;
+    /* Breathing room */
+    border-radius: 4px;
+}
+
 .roadmap-item {
     display: flex;
     gap: 16px;
@@ -254,6 +269,8 @@
     font-size: 24px;
     /* Ensure icon hides the line behind it */
     z-index: 2;
+    border-radius: 50%;
+    /* Ensure circular mask */
 }
 
 .roadmap-item.done .status-icon {
