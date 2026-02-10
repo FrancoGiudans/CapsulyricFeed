@@ -1,0 +1,322 @@
+/* Basic MD3-inspired styles */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--surface);
+}
+
+/* Top App Bar */
+.top-app-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: var(--surface);
+    color: var(--on-surface);
+    position: sticky;
+    /* Keep header visible */
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#app-title {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    color: var(--on-surface);
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-button:hover {
+    background-color: var(--on-surface-variant, rgba(0, 0, 0, 0.08));
+}
+
+/* Content Area */
+.content-area {
+    padding: 16px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Accordion Styles */
+.accordion-item {
+    background-color: var(--surface-container);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: background-color 0.3s;
+    border: 1px solid var(--outline-variant, transparent);
+}
+
+.accordion-item.active {
+    background-color: var(--surface-container-high, var(--surface-container));
+    /* border: 1px solid var(--primary); */
+    /* Optional accent */
+}
+
+.accordion-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    color: var(--on-surface);
+    transition: background-color 0.2s;
+}
+
+.accordion-header:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.accordion-item.active .accordion-header {
+    color: var(--primary);
+}
+
+.header-icon {
+    margin-right: 16px;
+    font-size: 24px;
+}
+
+.header-label {
+    flex-grow: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.expand-icon {
+    transition: transform 0.3s ease;
+}
+
+.accordion-item.active .expand-icon {
+    transform: rotate(180deg);
+}
+
+/* Accordion Content with Animation */
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 1000px;
+    /* Arbitrary large number for max expansion, or JS calculated */
+}
+
+.accordion-body {
+    padding: 0 24px 24px 24px;
+    /* Separator */
+    border-top: 1px solid transparent;
+}
+
+.accordion-item.active .accordion-body {
+    border-top-color: var(--outline-variant, rgba(0, 0, 0, 0.1));
+    padding-top: 16px;
+}
+
+
+.accordion-body h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: var(--on-surface);
+    display: none;
+    /* Hide internal titles as header serves this purpose roughly, or keep? */
+    /* Let's keep them hidden for cleaner look if header is descriptive enough, 
+       but headers are "Issues", internal title is "Report an Issue". 
+       Let's show them but smaller/cleaner or keep hidden. 
+       Actually, keep hidden to reduce clutter. */
+}
+
+/* Override: Show text if needed, but let's hide the big H2s inside cards since headers exist */
+.accordion-body h2 {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+
+.accordion-body p {
+    color: var(--on-surface-variant, var(--on-surface));
+    margin-bottom: 24px;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+
+.card-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 20px;
+    /* MD3 pill shape */
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border: none;
+}
+
+.button.filled {
+    background-color: var(--primary);
+    color: var(--on-primary);
+}
+
+.button.filled:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+}
+
+.button.tonal {
+    background-color: var(--secondary-container);
+    color: var(--on-secondary-container);
+}
+
+.button.tonal:hover {
+    opacity: 0.8;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: var(--outline);
+    color: var(--surface);
+}
+
+/* Roadmap Specifics */
+.roadmap-container {
+    padding: 0 8px;
+}
+
+.roadmap-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+/* Vertical Line */
+.roadmap-list::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    bottom: 0;
+    left: 11px;
+    /* Center of icon */
+    width: 2px;
+    background-color: var(--outline);
+    z-index: 0;
+}
+
+.roadmap-item {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+.roadmap-item:last-child {
+    margin-bottom: 0;
+}
+
+.status-icon {
+    background-color: var(--surface-container);
+    /* Check mask match */
+    color: var(--outline);
+    font-size: 24px;
+    /* Ensure icon hides the line behind it */
+    z-index: 2;
+}
+
+.roadmap-item.done .status-icon {
+    color: var(--primary);
+}
+
+.roadmap-item.in-progress .status-icon {
+    color: var(--primary);
+}
+
+.roadmap-content {
+    background-color: var(--surface);
+    /* Contrast against container */
+    padding: 12px 16px;
+    border-radius: 12px;
+    flex-grow: 1;
+}
+
+.roadmap-content h3 {
+    margin: 0 0 4px 0;
+    font-size: 15px;
+    color: var(--on-surface);
+}
+
+.roadmap-content p {
+    margin: 0;
+    font-size: 13px;
+    color: var(--on-surface);
+    opacity: 0.7;
+}
+
+/* Markdown Content Styles */
+.markdown-content p {
+    margin: 0.5em 0;
+}
+
+.markdown-content p:first-child {
+    margin-top: 0;
+}
+
+.markdown-content p:last-child {
+    margin-bottom: 0;
+}
+
+.markdown-content a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.markdown-content a:hover {
+    text-decoration: underline;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+    margin: 0.5em 0;
+    padding-left: 1.5em;
+}
+
+.markdown-content code {
+    background-color: var(--surface-container-high);
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.9em;
+}

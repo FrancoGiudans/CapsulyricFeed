@@ -1,0 +1,79 @@
+:root {
+    /* Core Blue Palette (Approximation of MD3 Blue) */
+    --md-sys-color-primary-light: #005AC1;
+    --md-sys-color-on-primary-light: #FFFFFF;
+    --md-sys-color-primary-container-light: #D8E2FF;
+    --md-sys-color-on-primary-container-light: #001A41;
+    
+    --md-sys-color-secondary-light: #575E71;
+    --md-sys-color-on-secondary-light: #FFFFFF;
+    --md-sys-color-secondary-container-light: #DBE2F9;
+    --md-sys-color-on-secondary-container-light: #141B2C;
+
+    --md-sys-color-surface-light: #FEF7FF;
+    --md-sys-color-on-surface-light: #1B1B1F;
+    --md-sys-color-surface-container-light: #F3F3F7; /* Slightly distinct from background */
+
+    --md-sys-color-outline-light: #74777F;
+
+    /* Dark Mode Palette */
+    --md-sys-color-primary-dark: #ADC6FF;
+    --md-sys-color-on-primary-dark: #002E69;
+    --md-sys-color-primary-container-dark: #004494;
+    --md-sys-color-on-primary-container-dark: #D8E2FF;
+
+    --md-sys-color-secondary-dark: #BFC6DC;
+    --md-sys-color-on-secondary-dark: #293041;
+    --md-sys-color-secondary-container-dark: #3F4759;
+    --md-sys-color-on-secondary-container-dark: #DBE2F9;
+
+    --md-sys-color-surface-dark: #141218;
+    --md-sys-color-on-surface-dark: #E6E1E5;
+    --md-sys-color-surface-container-dark: #1D1B20;
+
+    --md-sys-color-outline-dark: #8E9099;
+
+    /* Default to Light */
+    --primary: var(--md-sys-color-primary-light);
+    --on-primary: var(--md-sys-color-on-primary-light);
+    --primary-container: var(--md-sys-color-primary-container-light);
+    --on-primary-container: var(--md-sys-color-on-primary-container-light);
+    
+    --secondary: var(--md-sys-color-secondary-light);
+    --on-secondary: var(--md-sys-color-on-secondary-light);
+    --secondary-container: var(--md-sys-color-secondary-container-light);
+    --on-secondary-container: var(--md-sys-color-on-secondary-container-light);
+
+    --surface: var(--md-sys-color-surface-light);
+    --on-surface: var(--md-sys-color-on-surface-light);
+    --surface-container: var(--md-sys-color-surface-container-light);
+    
+    --outline: var(--md-sys-color-outline-light);
+}
+
+[data-theme="dark"] {
+    --primary: var(--md-sys-color-primary-dark);
+    --on-primary: var(--md-sys-color-on-primary-dark);
+    --primary-container: var(--md-sys-color-primary-container-dark);
+    --on-primary-container: var(--md-sys-color-on-primary-container-dark);
+    
+    --secondary: var(--md-sys-color-secondary-dark);
+    --on-secondary: var(--md-sys-color-on-secondary-dark);
+    --secondary-container: var(--md-sys-color-secondary-container-dark);
+    --on-secondary-container: var(--md-sys-color-on-secondary-container-dark);
+
+    --surface: var(--md-sys-color-surface-dark);
+    --on-surface: var(--md-sys-color-on-surface-dark);
+    --surface-container: var(--md-sys-color-surface-container-dark);
+    
+    --outline: var(--md-sys-color-outline-dark);
+}
+
+body {
+    background-color: var(--surface);
+    color: var(--on-surface);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
