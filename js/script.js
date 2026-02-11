@@ -94,11 +94,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
                 }
                 // Content markers
-                else if (trimmed === '[EN]') {
+                else if (trimmed.startsWith('[EN]')) {
                     parsingMode = 'EN';
+                    const content = line.substring(line.indexOf('[EN]') + 4).trim();
+                    if (content) contentEn += content + '\n';
                 }
-                else if (trimmed === '[ZH]') {
+                else if (trimmed.startsWith('[ZH]')) {
                     parsingMode = 'ZH';
+                    const content = line.substring(line.indexOf('[ZH]') + 4).trim();
+                    if (content) contentZh += content + '\n';
                 }
                 else if (trimmed.startsWith('<!--')) {
                     // Ignore comments
@@ -181,11 +185,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             // Description markers
-            else if (trimmed === '[EN]') {
+            else if (trimmed.startsWith('[EN]')) {
                 parsingMode = 'EN';
+                const content = line.substring(line.indexOf('[EN]') + 4).trim();
+                if (currentItem && content) currentItem.desc.en += content + '\n';
             }
-            else if (trimmed === '[ZH]') {
+            else if (trimmed.startsWith('[ZH]')) {
                 parsingMode = 'ZH';
+                const content = line.substring(line.indexOf('[ZH]') + 4).trim();
+                if (currentItem && content) currentItem.desc.zh += content + '\n';
             }
             else if (currentItem) {
                 if (parsingMode === 'EN') currentItem.desc.en += line + '\n';
