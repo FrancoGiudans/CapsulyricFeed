@@ -371,10 +371,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 const li = document.createElement('li');
                 li.className = `roadmap-item ${item.status}`;
 
-                let iconName = 'circle';
-                if (item.status === 'done') iconName = 'check_circle';
-                else if (item.status === 'in-progress') iconName = 'pending';
-                else if (item.status === 'testing') iconName = 'science'; // pending/testing
+                let iconName = 'check_box_outline_blank'; // Default unchecked
+                if (item.status === 'done') iconName = 'check_box';
+                else if (item.status === 'in-progress') iconName = 'indeterminate_check_box'; // Or 'hourglass_empty'
+                else if (item.status === 'testing') iconName = 'biotech'; // Special case
 
                 li.innerHTML = `
                     <span class="status-icon material-symbols-outlined">${iconName}</span>

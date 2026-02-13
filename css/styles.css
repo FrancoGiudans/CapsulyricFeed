@@ -224,7 +224,7 @@
 
 /* Vertical Line */
 .roadmap-list::before {
-    content: '';
+    content: none;
     position: absolute;
     top: 8px;
     bottom: 0;
