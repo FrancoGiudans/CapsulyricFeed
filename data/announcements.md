@@ -25,4 +25,4 @@ Meta: title_zh=1.2版本即将推送到prerelease频道
 Version 1.2 is coming soon to the prerelease channel.
 
 [ZH]
-1.2版本即将推送到prerelease频道
+1.2版本已推送到prerelease频道

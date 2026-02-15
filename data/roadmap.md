@@ -35,4 +35,4 @@ Meta: title_en=Version 1.2 Prerelease; title_zh=1.2预发布版本
 
 ## [pending] Alpha Build v1.2 ||| Alpha 构建 v1.2
 [EN] Internal testing ongoing.
-[ZH] 内部测试进行中。
+[ZH] 1.2版本现位于Prerelease频道
