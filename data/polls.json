@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "next-codename-vote",
+      "titleZh": "为下一个开发代号投票",
+      "titleEn": "Vote for the next codename",
+      "summaryZh": "选择下一个发布周期的开发代号候选。",
+      "summaryEn": "Pick the codename candidate for the next release cycle.",
+      "bodyZh": "## 投票\n\n打开链接中的 GitHub Discussion 或 Issue 参与投票。",
+      "bodyEn": "## Vote\n\nOpen the linked GitHub Discussion or Issue and cast your vote there.",
+      "url": "https://github.com/FrancoGiudans/Capsulyric/discussions",
+      "actionTextZh": "参与投票",
+      "actionTextEn": "Open vote",
+      "channels": [
+        "Alpha",
+        "Beta",
+        "Pre",
+        "Canary"
+      ],
+      "publishedAt": "2026-04-06T12:00:00Z",
+      "startsAt": "2026-04-06T12:00:00Z",
+      "expiresAt": "2026-05-01T00:00:00Z",
+      "minCommitCount": 0,
+      "priority": 90,
+      "enabled": true
+    }
+  ]
+}

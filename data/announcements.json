@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "codename-cerydra",
+      "titleZh": "Cerydra 已启用",
+      "titleEn": "Cerydra has landed",
+      "summaryZh": "Island Lyrics 的第一个开发代号已经正式启用。",
+      "summaryEn": "Integration test push path verified.",
+      "bodyZh": "## Cerydra\n\n应用的第一个开发代号现已确定为 **Cerydra**。",
+      "bodyEn": "## Cerydra\n\nWe have introduced the first development codename for the app: **Cerydra**.",
+      "url": "https://github.com/FrancoGiudans/Capsulyric/discussions/categories/announcements",
+      "actionTextZh": "查看公告",
+      "actionTextEn": "Read announcement",
+      "channels": [
+        "All"
+      ],
+      "publishedAt": "2026-04-06T12:00:00Z",
+      "startsAt": "2026-04-06T12:00:00Z",
+      "expiresAt": "2026-06-01T00:00:00Z",
+      "minCommitCount": 0,
+      "priority": 100,
+      "enabled": true
+    }
+  ]
+}
