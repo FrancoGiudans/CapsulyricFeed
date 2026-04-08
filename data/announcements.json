@@ -1,3 +1,25 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "announcement-20260409-013825",
+      "url": "",
+      "channels": [
+        "Alpha",
+        "Canary",
+        "Pre",
+        "Beta"
+      ],
+      "enabled": true,
+      "titleZh": "更新暂停",
+      "summaryZh": "因个人事务，项目于 26.4.Alpha2 发布后暂停更新 1–2 周，期间暂不处理代码提交、Issue 与 PR，感谢理解。",
+      "bodyZh": "感谢您一直以来对本项目的关注与支持。由于开发者个人事务安排，本项目在完成 **26.4.Alpha2** 版本发布后，将进入为期 **1 至 2 周** 的维护暂停期。\n\n**暂停期间安排如下：**\n- 代码仓库将不再接收新的 Commit 推送。\n- 暂不审核与处理新提交的 Issue 与 Pull Request。\n- 现有版本功能、文档及已合并代码不受影响。\n\n预计开发工作将于 **两周后** 逐步恢复。届时我们将优先处理期间积累的反馈与合并请求。由此带来的不便，敬请谅解。",
+      "actionTextZh": "了解了",
+      "titleEn": "Update Suspension Notice",
+      "summaryEn": "Due to personal commitments, project updates will pause for 1–2 weeks after 26.4.Alpha2, with no new commits, issues, or PRs processed during this period. Thank you for your understanding.",
+      "bodyEn": "Thank you for your continued support and interest in this project. Due to personal commitments, development will be temporarily paused for **1 to 2 weeks** following the release of **v26.4.Alpha2**.\n\n**During this suspension period:**\n- No new commits will be pushed to the repository.\n- New issues and pull requests will not be reviewed or processed.\n- Existing versions, documentation, and previously merged code remain fully accessible and unaffected.\n\nDevelopment is expected to resume within **two weeks**. Upon returning, we will prioritize addressing pending feedback and merge requests. We sincerely apologize for any inconvenience this may cause and appreciate your understanding and patience.",
+      "actionTextEn": "I See",
+      "minCommitCount": 0,
+      "priority": 0
+    }
+  ]
 }
