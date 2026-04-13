@@ -21,6 +21,23 @@
       "actionTextEn": "Open vote",
       "minCommitCount": 0,
       "priority": 90
+    },
+    {
+      "id": "poll-20260414-063018",
+      "url": "https://github.com/FrancoGiudans/Capsulyric/discussions/29",
+      "channels": [
+        "Canary",
+        "Alpha"
+      ],
+      "enabled": true,
+      "titleZh": "小米超级岛新通知样式",
+      "summaryZh": "Canary 新通知样式征集反馈",
+      "bodyZh": "Canary 即将上线适配小米超级岛的全新通知样式。请预览设计效果，并在评论区留下您的评分或建议，助力我们优化体验。",
+      "titleEn": "New Notification Style for Xiaomi Dynamic Island",
+      "summaryEn": "Canary is collecting feedback on its new Xiaomi Dynamic Island notification style",
+      "bodyEn": "The upcoming Canary release introduces a new notification style for Xiaomi Dynamic Island. Please review the preview and share your rating or suggestions in the comments to help us improve.",
+      "minCommitCount": 0,
+      "priority": 0
     }
   ]
 }
