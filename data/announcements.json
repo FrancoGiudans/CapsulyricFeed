@@ -1,3 +1,22 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "announcement-20260419-005854",
+      "url": "",
+      "channels": [
+        "All"
+      ],
+      "enabled": true,
+      "titleZh": "更新暂停公告",
+      "summaryZh": "因开发者个人事务，项目暂停更新1周。期间将暂停代码推送、Issue 与 PR 处理，现有功能不受影响。预计1周内恢复开发，感谢理解。",
+      "bodyZh": "尊敬的社区成员与用户：\n\n感谢您一直以来对本项目的关注与支持。由于开发者个人事务安排，本项目将进入为期 **1周** 左右的维护暂停期。\n\n**暂停期间安排如下：**\n- 代码仓库将不再接收新的 Commit 推送。\n- 暂不审核与处理新提交的 Issue 与 Pull Request。\n- 现有版本功能、文档及已合并代码不受影响。\n\n预计开发工作将于 **一周后** 逐步恢复。届时我们将优先处理期间积累的反馈与合并请求。由此带来的不便，敬请谅解。\n\n感谢您的理解与耐心等待。\n\n2026年4月19日",
+      "actionTextZh": "了解了",
+      "titleEn": "Update Suspension Notice",
+      "summaryEn": "Due to personal commitments, project updates will be paused for 1 week. No new commits, issue reviews, or PR merges will occur during this period; existing functionality remains unaffected. Development is expected to resume within 1 week. Thank you for your understanding.",
+      "bodyEn": "Dear community members and users,\n\nThank you for your continued support and interest in this project. Due to personal commitments, development will be temporarily paused for **1 week**.\n\n**During this suspension period:**\n- No new commits will be pushed to the repository.\n- New issues and pull requests will not be reviewed or processed.\n- Existing versions, documentation, and previously merged code remain fully accessible and unaffected.\n\nDevelopment is expected to resume within **1 week**. Upon returning, we will prioritize addressing pending feedback and merge requests. We sincerely apologize for any inconvenience this may cause and appreciate your understanding and patience.\n\nProject Maintainer  \nApril 19, 2026",
+      "actionTextEn": "I See",
+      "minCommitCount": 0,
+      "priority": 0
+    }
+  ]
 }
