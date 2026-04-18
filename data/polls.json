@@ -4,20 +4,17 @@
       "id": "newdesign-vote",
       "url": "https://github.com/FrancoGiudans/Capsulyric/discussions/28#discussion-9833209",
       "channels": [
-        "Alpha",
-        "Beta",
-        "Pre",
-        "Canary"
+        "All"
       ],
       "enabled": true,
       "publishedAt": "2026-04-06T12:00:00Z",
       "startsAt": "2026-04-06T12:00:00Z",
       "expiresAt": "2026-05-01T00:00:00Z",
       "titleZh": "为新的设计投票",
-      "bodyZh": "## 投票\n\n我们在开发周期**Cerydra**中,对应用界面进行了全新的设计,并加入了 **高级材质效果(Advanced Texture)** 来提升视觉体验。请您帮忙对这次更新打分,并随时分享您的想法和看法!",
+      "bodyZh": "我们在开发周期**Cerydra**中,对应用界面进行了全新的设计,并加入了 **高级材质效果(Advanced Texture)** 来提升视觉体验。请您帮忙对这次更新打分,并随时分享您的想法和看法!",
       "actionTextZh": "参与投票",
       "titleEn": "Vote For New Design",
-      "bodyEn": "## Vote\n\nOpen the linked GitHub Discussion or Issue and cast your vote there.",
+      "bodyEn": "Open the linked GitHub Discussion or Issue and cast your vote there.",
       "actionTextEn": "Open vote",
       "minCommitCount": 0,
       "priority": 90
