@@ -17,6 +17,22 @@
       "actionTextEn": "I See",
       "minCommitCount": 0,
       "priority": 0
+    },
+    {
+      "id": "announcement-20260427-142807",
+      "url": "https://github.com/FrancoGiudans/Capsulyric/discussions/33",
+      "channels": [
+        "Canary"
+      ],
+      "enabled": true,
+      "titleZh": "接下来的更新计划",
+      "summaryZh": "关于当前开发周期的说明",
+      "bodyZh": "Cerydra 当前开发周期已接近尾声，本周期的剩余更新计划主要包括：\n- 修复小米超级岛的按键交互问题\n- 尝试处理歌词通知延迟问题\n- 修复歌词显示跳跃/卡顿问题\n- 探索更优的性能优化方案\n\n完成上述内容后，Cerydra 将进入发布预备状态。\n\n下一个开发周期暂定为「Citlali」，初步规划内容包括：\n- 适配新增歌词来源：词幕 #27 \n- 新增歌词翻译功能\n",
+      "titleEn": "Upcoming Update Plan",
+      "summaryEn": "About this development cycle",
+      "bodyEn": "The Cerydra development cycle is nearing completion. Remaining updates for this cycle will focus on:\n- Fixing button interaction issues with Xiaomi's Dynamic Island implementation\n- Resolving lyric display jumping or stuttering issues\n- Try to fix delay in lyric notification\n- Exploring more effective performance optimization strategies\n\nUpon completion, Cerydra will enter the release preparation phase.\n\nThe next development cycle is tentatively codenamed \"Citlali\". Preliminary plans include:\n- Integrating \"Cimu\" as a new lyric source provider\n- Adding lyric translation support",
+      "minCommitCount": 0,
+      "priority": 0
     }
   ]
 }
