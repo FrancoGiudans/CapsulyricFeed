@@ -6,7 +6,7 @@
       "channels": [
         "All"
       ],
-      "enabled": true,
+      "enabled": false,
       "publishedAt": "2026-04-06T12:00:00Z",
       "startsAt": "2026-04-06T12:00:00Z",
       "expiresAt": "2026-05-01T00:00:00Z",
@@ -26,7 +26,7 @@
         "Canary",
         "Alpha"
       ],
-      "enabled": true,
+      "enabled": false,
       "titleZh": "小米超级岛新通知样式",
       "summaryZh": "Canary 新通知样式征集反馈",
       "bodyZh": "Canary 即将上线适配小米超级岛的全新通知样式。请预览设计效果，并在评论区留下您的评分或建议，助力我们优化体验。",
