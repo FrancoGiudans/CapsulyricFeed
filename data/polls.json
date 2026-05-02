@@ -35,6 +35,37 @@
       "bodyEn": "The upcoming Canary release introduces a new notification style for Xiaomi Dynamic Island. Please review the preview and share your rating or suggestions in the comments to help us improve.",
       "minCommitCount": 0,
       "priority": 0
+    },
+    {
+      "id": "poll-20260503-033439",
+      "url": "https://github.com/FrancoGiudans/Capsulyric/discussions/37",
+      "channels": [
+        "Experiment",
+        "Canary",
+        "Preview"
+      ],
+      "enabled": true,
+      "titleZh": "App 性能",
+      "bodyZh": "自 C410 版本起，我们针对 App 性能进行了专项优化。您认为当前版本的流畅度是否有显著提升？",
+      "titleEn": "App Performance",
+      "bodyEn": "Starting from version C410, we have implemented performance optimizations for the app. Have you noticed a significant improvement in smoothness?",
+      "minCommitCount": 0,
+      "priority": 100
+    },
+    {
+      "id": "poll-20260503-033441",
+      "url": "https://github.com/FrancoGiudans/Capsulyric/discussions/38",
+      "channels": [
+        "Experiment",
+        "Canary"
+      ],
+      "enabled": true,
+      "titleZh": "新的歌词胶囊",
+      "bodyZh": "在 C412 版本中，我们引入了全歌词排列胶囊。你对当前的实现方式是否满意？",
+      "titleEn": "New Lyric Capsule",
+      "bodyEn": "In version C412, we introduced the full-lyric arrangement capsule. Do you find the current implementation meets your usage needs?",
+      "minCommitCount": 0,
+      "priority": 0
     }
   ]
 }
