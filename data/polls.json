@@ -57,7 +57,8 @@
       "url": "https://github.com/FrancoGiudans/Capsulyric/discussions/38",
       "channels": [
         "Experiment",
-        "Canary"
+        "Canary",
+        "Preview"
       ],
       "enabled": true,
       "titleZh": "新的歌词胶囊",
