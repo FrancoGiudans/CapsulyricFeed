@@ -44,7 +44,7 @@
         "Canary",
         "Preview"
       ],
-      "enabled": true,
+      "enabled": false,
       "titleZh": "App 性能",
       "bodyZh": "自 C410 版本起，我们针对 App 性能进行了专项优化。您认为当前版本的流畅度是否有显著提升？",
       "titleEn": "App Performance",
@@ -56,11 +56,11 @@
       "id": "poll-20260503-033441",
       "url": "https://github.com/FrancoGiudans/Capsulyric/discussions/38",
       "channels": [
-        "Experiment",
+        "Preview",
         "Canary",
-        "Preview"
+        "Experiment"
       ],
-      "enabled": true,
+      "enabled": false,
       "titleZh": "新的歌词胶囊",
       "bodyZh": "在 C412 版本中，我们引入了全歌词排列胶囊。你对当前的实现方式是否满意？",
       "titleEn": "New Lyric Capsule",
