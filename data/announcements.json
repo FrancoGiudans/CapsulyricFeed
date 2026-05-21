@@ -40,7 +40,7 @@
         "Canary",
         "Preview"
       ],
-      "enabled": true,
+      "enabled": false,
       "titleZh": "Citlali 开发周期更新计划",
       "bodyZh": "- [X] 适配词幕（Lyricon）（基本完成）\n- [ ] 适配 Superlyric API 引入的歌词翻译 / 罗马音功能\n- [X] 为在线歌词引入歌词翻译 / 罗马音 （基本完成）\n- [X] 引入全歌词排列 （基本完成）\n- [ ] 侦测性能问题并尽量优化 （正在进行）",
       "titleEn": "Citlali Development Cycle Roadmap",
