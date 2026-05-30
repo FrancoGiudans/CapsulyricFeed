@@ -26,7 +26,7 @@
       ],
       "enabled": true,
       "titleZh": "关于合并更新通道的说明",
-      "bodyZh": "在「Citlali」开发周期中，我们将对更新通道进行整合优化：\n\n- **预览通道合并**：原 Alpha / Beta / Pre 三个预览版本通道将统一合并为 **Preview** 通道\n- **Canary 通道调整**：予以保留，但作为实验性通道（Experiment）默认隐藏，需通过「实验室」功能手动开启\n- **用户无感迁移**：原设置为「不接收预览版本更新」的用户将自动归入 **Stable** 通道，使用体验与此前完全一致\n\n本次调整旨在简化版本发布流程，降低用户对更新机制的理解成本，同时为后续迭代提供更清晰的测试分级。",
+      "bodyZh": "在「Citlali」开发周期中，我们将对更新通道进行整合优化：\n\n- **预览通道合并**：原 Alpha / Beta / Pre 三个预览版本通道将统一合并为 **Preview** 通道\n- **Canary 通道调整**：予以保留，但作为实验性通道（Experiment）默认隐藏，需通过「实验室」功能手动开启\n- **无需额外操作**：原设置为「不接收预览版本更新」的将自动归入 **Stable** 通道，使用体验与此前完全一致\n\n本次调整旨在简化版本发布流程，降低对更新机制的理解成本，同时为后续迭代提供更清晰的测试分级。",
       "titleEn": "Update Channel Consolidation Notice",
       "bodyEn": "During the \"Citlali\" development cycle, we will streamline the update channel structure:\n\n- **Preview Channel Consolidation**: The Alpha, Beta, and Pre preview channels will be merged into a single **Preview** channel\n- **Canary Channel Adjustment**: Retained but reclassified as an experimental channel (Experiment); hidden by default and accessible only via the \"Labs\" settings\n- **Seamless User Migration**: Users previously opted out of preview updates will be automatically assigned to the **Stable** channel, with no change to their update experience\n\nThis consolidation simplifies our release workflow, reduces complexity for end users, and establishes a clearer testing hierarchy for future development iterations.",
       "minCommitCount": 0,
