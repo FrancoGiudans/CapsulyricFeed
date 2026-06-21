@@ -47,6 +47,22 @@
       "bodyEn": "- [X] Adapt support for Lyricon (done)\n- [ ] Adapt lyric translation / romaji features introduced via Superlyric API\n- [X] Add lyric translation / romaji support for online lyrics (done)\n- [X] Introduce full-lyric arrangement layout (done)\n- [ ] Detect performance issues and optimize where possible (doing)",
       "minCommitCount": 0,
       "priority": 0
+    },
+    {
+      "id": "announcement-20260622-040308",
+      "url": "https://github.com/FrancoGiudans/Capsulyric/discussions/55",
+      "channels": [
+        "All"
+      ],
+      "enabled": true,
+      "titleZh": "项目重构说明",
+      "summaryZh": "项目重构期间 PR 处理说明",
+      "bodyZh": "项目当前正处于重构阶段，新提交的 PR 可能会暂缓处理，敬请理解。\n\n重构后的代码将首先合并至 `sunday/release` 分支，欢迎持续关注该分支动态，及时获取最新进展。",
+      "titleEn": "Refactoring Notice",
+      "summaryEn": "Notice on PR Handling During Project Refactoring",
+      "bodyEn": "The project is currently undergoing refactoring. New pull requests may experience delayed review—we appreciate your understanding.\n\nRefactored code will first be merged into the `sunday/release` branch. Please follow this branch for timely updates on progress.",
+      "minCommitCount": 0,
+      "priority": 0
     }
   ]
 }
