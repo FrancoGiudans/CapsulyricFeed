@@ -54,7 +54,7 @@
       "channels": [
         "All"
       ],
-      "enabled": true,
+      "enabled": false,
       "titleZh": "项目重构说明",
       "summaryZh": "项目重构期间 PR 处理说明",
       "bodyZh": "项目当前正处于重构阶段，新提交的 PR 可能会暂缓处理，敬请理解。\n\n重构后的代码将首先合并至 `sunday/release` 分支，欢迎持续关注该分支动态，及时获取最新进展。",
