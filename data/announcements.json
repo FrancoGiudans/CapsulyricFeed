@@ -63,6 +63,22 @@
       "bodyEn": "The project is currently undergoing refactoring. New pull requests may experience delayed review—we appreciate your understanding.\n\nRefactored code will first be merged into the `sunday/release` branch. Please follow this branch for timely updates on progress.",
       "minCommitCount": 0,
       "priority": 0
+    },
+    {
+      "id": "announcement-20260705-015931",
+      "url": "",
+      "channels": [
+        "All"
+      ],
+      "enabled": true,
+      "titleZh": "关于预览版本关于页面 LOGO 显示异常的说明",
+      "summaryZh": "Preview 与 Experiment 通道版本的「关于」页面 LOGO 存在黑块遮挡，此为已知问题，将在后续版本修复。",
+      "bodyZh": "该问题源于 prerelease 版本图标包含不透明底部标签，导致渲染时黑块不可避免。Release 正式版本图标无此不透明标签，经确认不存在该显示异常。我们计划在后续版本中优化图标资源以解决此问题。",
+      "titleEn": "Known Issue: Logo Display Artifact in Preview/Experiment Builds",
+      "summaryEn": "A known issue causes a black block to appear over the LOGO in the \"About\" page of Preview and Experiment channel builds. A fix is planned for a future update.",
+      "bodyEn": "This occurs because prerelease build icons include an opaque bottom label, which inevitably results in the black block artifact during rendering. Release version icons do not contain this opaque label and are confirmed unaffected. We plan to optimize the icon assets in a future update to resolve this issue permanently.",
+      "minCommitCount": 0,
+      "priority": 0
     }
   ]
 }
