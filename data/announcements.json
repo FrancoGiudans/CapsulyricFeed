@@ -68,7 +68,8 @@
       "id": "announcement-20260705-015931",
       "url": "",
       "channels": [
-        "All"
+        "Preview",
+        "Experiment"
       ],
       "enabled": true,
       "titleZh": "关于预览版本关于页面 LOGO 显示异常的说明",
