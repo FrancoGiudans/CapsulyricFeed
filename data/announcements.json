@@ -80,6 +80,20 @@
       "bodyEn": "This occurs because prerelease build icons include an opaque bottom label, which inevitably results in the black block artifact during rendering. Release version icons do not contain this opaque label and are confirmed unaffected. We plan to optimize the icon assets in a future update to resolve this issue permanently.",
       "minCommitCount": 0,
       "priority": 0
+    },
+    {
+      "id": "announcement-20260811-013727",
+      "url": "",
+      "channels": [
+        "All"
+      ],
+      "enabled": true,
+      "titleZh": "进入 LTS 阶段说明",
+      "bodyZh": "自26.8.Stable版本开始，本项目正式进入**长期维护阶段（LTS，Long Term Slacking）**。当前基础体验已趋于稳定，后续版本**更新频率将显著降低，新功能开发节奏亦会相应放缓**。\n尽管迭代步伐放缓，我们**仍将持续积极处理社区提交的新 Issue 与 PR**，保障项目的稳定性与代码质量。",
+      "titleEn": "Project Enters LTS Phase",
+      "bodyEn": "Starting from version 26.8.Stable, this project officially enters the Long Term Slacking (LTS) phase. The core experience is now relatively stable. Future update frequency will be significantly reduced, and new feature development will proceed at a slower pace. We will continue to actively address new Issues and Pull Requests. Thank you for your understanding and continued support.",
+      "minCommitCount": 0,
+      "priority": 0
     }
   ]
 }
