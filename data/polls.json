@@ -67,6 +67,24 @@
       "bodyEn": "In version C412, we introduced the full-lyric arrangement capsule. Do you find the current implementation meets your usage needs?",
       "minCommitCount": 0,
       "priority": 0
+    },
+    {
+      "id": "poll-20260813-014810",
+      "url": "https://github.com/FrancoGiudans/Capsulyric/discussions/71",
+      "channels": [
+        "All"
+      ],
+      "enabled": true,
+      "titleZh": "UI 使用情况调查",
+      "summaryZh": "为优化开发资源分配，我们希望通过本调查了解两套 UI 的实际使用情况，以决定后续维护策略。您的反馈将直接影响产品方向。",
+      "bodyZh": "鉴于当前开发资源，同时维护两套 UI 风格面临较大压力。我们希望了解大家的实际使用情况，以评估是逐步收敛至单一 UI，还是继续并行维护双 UI 方案。\n\n本次调查结果将作为重要参考，但非唯一决策依据。若最终决定继续维护双 UI，请知悉以下可能情况：\n\n- 新组件或功能可能无法在两套 UI 间实时同步；\n- 其中一套 UI 的缺陷可能因测试覆盖有限而流入正式版。\n\n请根据您的实际使用习惯与偏好自由填写。感谢您的反馈与支持！",
+      "actionTextZh": "前往",
+      "titleEn": "UI Usage Survey",
+      "summaryEn": "To optimize development resource allocation, we invite you to share your usage preferences between our two UI styles. Your feedback will help shape our future maintenance strategy.",
+      "bodyEn": "Given current development constraints, maintaining two UI styles simultaneously presents significant challenges. We aim to understand actual usage patterns to decide whether to consolidate to a single UI or continue supporting both.\n\nThis survey will serve as a key reference but will not solely dictate our decision. Should we choose to maintain both UIs, please note the following:\n- New components or features may not be synchronized across both UIs in real time\n- Bugs in one UI might occasionally pass through testing and reach the stable release due to limited coverage\n\nPlease vote freely based on your personal preference and daily usage habits. Thank you for your feedback and continued support!",
+      "actionTextEn": "Go",
+      "minCommitCount": 0,
+      "priority": 0
     }
   ]
 }
